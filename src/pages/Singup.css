@@ -1,0 +1,98 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  color: white;
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.singup-page {
+  height: 100vh; 
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+margin-top: 4rem;
+}
+
+.container {
+  height: 80%;
+  width: 70%;
+  background-color: white;
+  border: 1px solid #ccc;
+  display: flex;
+ 
+  color: black; 
+}
+.left-side img{
+
+    height: 80vh;
+width: 70vh;
+}
+
+.right-side img{
+  position: absolute;
+  top: 5%;
+  left: 65%;
+transform: translateX(-50%);
+height: 23vh;
+
+
+}
+.right-side p{
+  position: absolute;
+ top: 20%;
+
+ left: 61%;
+  font-size: 2rem;
+  width: 10%;
+
+}
+.singup-form form{
+  position: absolute;
+  top: 30%;
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+ left: 58.5%;
+
+ outline: none;
+ margin-top: 1rem;
+
+}
+.singup-form form input{
+  height: 6vh;
+  width: 16vw;
+  padding: 1rem 1.7rem;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid black;
+}
+.singup-form form button{
+    height: 6vh;
+  width: 16vw;
+  margin-top: 5rem;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid black;
+}
+.singup-form form p{
+  font-size: 0.8rem;
+  margin-top: 9rem;
+  margin-left: -5rem;
+  width: 100%;
+}
+.login-page{
+  position: absolute;
+  top: 82%;
+  left: 62%;
+  font-size: 0.8rem;
+}

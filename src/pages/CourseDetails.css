@@ -1,0 +1,90 @@
+.details {
+  height: 100vh;
+  width: 100vw;
+  margin-top: 2rem;
+
+}
+
+
+.course-details-wrapper {
+  max-width: 800px;
+position: absolute;
+top: 20%;
+left: 50%;
+
+    transform: translateX(-50%);
+  padding: 2rem;
+  background-color: #111;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+  color: white;
+  text-align: center;
+  animation: fadeIn 0.4s ease-in;
+}
+
+.course-details-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.course-details-wrapper h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4a90e2;
+}
+
+.course-details-wrapper p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 0.7rem;
+}
+
+.back-btn {
+  margin-top: 2rem;
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #3573c1;
+}
+
+/* Optional fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .course-details-wrapper {
+    padding: 1rem;
+    margin: 2rem 1rem;
+  }
+
+  .course-details-wrapper h1 {
+    font-size: 1.5rem;
+  }
+
+  .course-details-wrapper p {
+    font-size: 1rem;
+  }
+
+  .back-btn {
+    width: 100%;
+  }
+}
