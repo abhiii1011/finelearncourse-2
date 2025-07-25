@@ -23,8 +23,8 @@ const Home = () => {
       const MoveX = (e.clientX / window.innerWidth - 0.5) * 40;
       gsap.to(".img-container .text", { x: `${MoveX * 0.3}%` });
       gsap.to(".img-container .bgwall", { x: `${MoveX * 0.3}%` });
-      gsap.to(".img-container .coin", { x: `${MoveX * 0.3}%` });
-      gsap.to(".img-container svg", { x: `${-MoveX * 0.1}%` });
+      gsap.to(".img-container .coin", { x: `${MoveX * 0.1}%` });
+  
     });
   }, []);
 
